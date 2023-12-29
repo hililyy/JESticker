@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JESticker_Example' do
+  pod 'JESticker', :path => '../'
+
+  target 'JESticker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
