@@ -1,0 +1,6 @@
+framework module JESticker {
+  umbrella header "JESticker-umbrella.h"
+
+  export *
+  module * { export * }
+}

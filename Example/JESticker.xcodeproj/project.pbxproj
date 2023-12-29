@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* JESticker_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JESticker_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		68E589B829CC3938DB105635 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8A5C199D3C360D5DB31E1966 /* JESticker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JESticker.podspec; path = ../JESticker.podspec; sourceTree = "<group>"; };
+		68E589B829CC3938DB105635 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A5C199D3C360D5DB31E1966 /* JESticker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JESticker.podspec; path = ../JESticker.podspec; sourceTree = "<group>"; };
 		9F4C6D759059421DFD23535B /* Pods-JESticker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JESticker_Example.release.xcconfig"; path = "Target Support Files/Pods-JESticker_Example/Pods-JESticker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A5105AE09E918EF4CA7BDC90 /* Pods-JESticker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JESticker_Tests.release.xcconfig"; path = "Target Support Files/Pods-JESticker_Tests/Pods-JESticker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1D1E5E324EDC7A654660EA3 /* Pods_JESticker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JESticker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87F8C464170969192B0B822 /* Pods-JESticker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JESticker_Example.debug.xcconfig"; path = "Target Support Files/Pods-JESticker_Example/Pods-JESticker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F0176F196438BE14F61879A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F0176F196438BE14F61879A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				1338E15B3C1104AB63EBBBB9 /* Pods-JESticker_Tests.debug.xcconfig */,
 				A5105AE09E918EF4CA7BDC90 /* Pods-JESticker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 68P2WV4DR3;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 68P2WV4DR3;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,7 +480,9 @@
 			baseConfigurationReference = D87F8C464170969192B0B822 /* Pods-JESticker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68P2WV4DR3;
 				INFOPLIST_FILE = JESticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +497,9 @@
 			baseConfigurationReference = 9F4C6D759059421DFD23535B /* Pods-JESticker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68P2WV4DR3;
 				INFOPLIST_FILE = JESticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1338E15B3C1104AB63EBBBB9 /* Pods-JESticker_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 68P2WV4DR3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5105AE09E918EF4CA7BDC90 /* Pods-JESticker_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 68P2WV4DR3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

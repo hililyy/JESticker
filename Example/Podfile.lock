@@ -1,0 +1,16 @@
+PODS:
+  - JESticker (0.1.0)
+
+DEPENDENCIES:
+  - JESticker (from `../`)
+
+EXTERNAL SOURCES:
+  JESticker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JESticker: 998d6f38fdb2e15de36d95c66bf10602edc3e871
+
+PODFILE CHECKSUM: 2775f7bf28611980234f7687a16c0471045d2905
+
+COCOAPODS: 1.14.3
