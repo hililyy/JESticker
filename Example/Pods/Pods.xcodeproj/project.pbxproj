@@ -7,9 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0261C3FF2B578178005FEC4D /* icTwoArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3F12B578178005FEC4D /* icTwoArrow.png */; };
+		0261C4002B578178005FEC4D /* cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3F22B578178005FEC4D /* cow.png */; };
+		0261C4012B578178005FEC4D /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3F32B578178005FEC4D /* dog.png */; };
+		0261C4022B578178005FEC4D /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3F42B578178005FEC4D /* cat.png */; };
+		0261C4032B578178005FEC4D /* cake.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3F52B578178005FEC4D /* cake.png */; };
+		0261C4042B578178005FEC4D /* icX.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3F62B578178005FEC4D /* icX.png */; };
+		0261C4052B578178005FEC4D /* icRotate.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3F72B578178005FEC4D /* icRotate.png */; };
+		0261C4062B578178005FEC4D /* birthday.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3F82B578178005FEC4D /* birthday.png */; };
+		0261C4072B578178005FEC4D /* icArrowLeftBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3F92B578178005FEC4D /* icArrowLeftBottom.png */; };
+		0261C4082B578178005FEC4D /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3FA2B578178005FEC4D /* phone.png */; };
+		0261C4092B578178005FEC4D /* icArrowLeftTop.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3FB2B578178005FEC4D /* icArrowLeftTop.png */; };
+		0261C40A2B578178005FEC4D /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3FC2B578178005FEC4D /* rabbit.png */; };
+		0261C40B2B578178005FEC4D /* pie.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3FD2B578178005FEC4D /* pie.png */; };
+		0261C40C2B578178005FEC4D /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3FE2B578178005FEC4D /* camera.png */; };
+		0261C40E2B5784EE005FEC4D /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261C40D2B5784EE005FEC4D /* SimpleButton.swift */; };
+		0261C4142B579597005FEC4D /* TextFieldPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261C4122B579597005FEC4D /* TextFieldPopupVC.swift */; };
+		0261C4152B579597005FEC4D /* TextFieldPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261C4132B579597005FEC4D /* TextFieldPopupView.swift */; };
+		02CF41862B4CDD67003BFBEF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF41852B4CDD67003BFBEF /* Extension.swift */; };
+		02CF41892B4CDD8F003BFBEF /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF41882B4CDD8F003BFBEF /* Enum.swift */; };
+		02CF418E2B4CDDE3003BFBEF /* StickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF418D2B4CDDE3003BFBEF /* StickerView.swift */; };
+		02CF41902B4CDE09003BFBEF /* StickerTextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF418F2B4CDE09003BFBEF /* StickerTextModel.swift */; };
+		02CF41922B4CDE18003BFBEF /* StickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF41912B4CDE18003BFBEF /* StickerDelegate.swift */; };
+		02CF41942B4CDE27003BFBEF /* StickerBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF41932B4CDE27003BFBEF /* StickerBorderView.swift */; };
+		02CF41972B4CDE59003BFBEF /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF41962B4CDE59003BFBEF /* IconButton.swift */; };
+		02CF41992B4CDE99003BFBEF /* CanvasStickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF41982B4CDE99003BFBEF /* CanvasStickerVC.swift */; };
+		02CF419B2B4CDEC2003BFBEF /* CanvasStickerBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF419A2B4CDEC2003BFBEF /* CanvasStickerBaseVC.swift */; };
+		02CF419D2B4CDEF8003BFBEF /* CanvasStickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF419C2B4CDEF8003BFBEF /* CanvasStickerView.swift */; };
+		02CF419F2B4CDF89003BFBEF /* StickerListCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF419E2B4CDF89003BFBEF /* StickerListCVCell.swift */; };
 		135FE8716FFC29BFF0841344F6DBFAF7 /* JESticker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC2CE66DB9DAFDD83CB9D5B8D29E507 /* JESticker-dummy.m */; };
 		1EF35BCB25CD7E41A9A3D8043F9218FD /* Pods-JESticker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA32DFD1F501D28F89AE52E1F8BCA4 /* Pods-JESticker_Tests-dummy.m */; };
-		2FCA43403188F887F3524425B8D6B5DE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3603A8C603CA936270E638B749919F83 /* ReplaceMe.swift */; };
 		32F261F2B7547CA85863328EEF763F99 /* Pods-JESticker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4DAB87F46552D082D872933CD3542 /* Pods-JESticker_Example-dummy.m */; };
 		54B38775DC5ECEFE19494B412C628E39 /* Pods-JESticker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02BA2139E3F4E27EE782439871B57E93 /* Pods-JESticker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6F925EF973165B316C79D586B5A1695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -37,7 +64,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0261C3F12B578178005FEC4D /* icTwoArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icTwoArrow.png; sourceTree = "<group>"; };
+		0261C3F22B578178005FEC4D /* cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cow.png; sourceTree = "<group>"; };
+		0261C3F32B578178005FEC4D /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		0261C3F42B578178005FEC4D /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		0261C3F52B578178005FEC4D /* cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cake.png; sourceTree = "<group>"; };
+		0261C3F62B578178005FEC4D /* icX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icX.png; sourceTree = "<group>"; };
+		0261C3F72B578178005FEC4D /* icRotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icRotate.png; sourceTree = "<group>"; };
+		0261C3F82B578178005FEC4D /* birthday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birthday.png; sourceTree = "<group>"; };
+		0261C3F92B578178005FEC4D /* icArrowLeftBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icArrowLeftBottom.png; sourceTree = "<group>"; };
+		0261C3FA2B578178005FEC4D /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		0261C3FB2B578178005FEC4D /* icArrowLeftTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icArrowLeftTop.png; sourceTree = "<group>"; };
+		0261C3FC2B578178005FEC4D /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbit.png; sourceTree = "<group>"; };
+		0261C3FD2B578178005FEC4D /* pie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pie.png; sourceTree = "<group>"; };
+		0261C3FE2B578178005FEC4D /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		0261C40D2B5784EE005FEC4D /* SimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleButton.swift; sourceTree = "<group>"; };
+		0261C4122B579597005FEC4D /* TextFieldPopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldPopupVC.swift; sourceTree = "<group>"; };
+		0261C4132B579597005FEC4D /* TextFieldPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldPopupView.swift; sourceTree = "<group>"; };
+		0261C4162B579772005FEC4D /* font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font.ttf; sourceTree = "<group>"; };
 		02BA2139E3F4E27EE782439871B57E93 /* Pods-JESticker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JESticker_Example-umbrella.h"; sourceTree = "<group>"; };
+		02CF41852B4CDD67003BFBEF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		02CF41882B4CDD8F003BFBEF /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		02CF418D2B4CDDE3003BFBEF /* StickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerView.swift; sourceTree = "<group>"; };
+		02CF418F2B4CDE09003BFBEF /* StickerTextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerTextModel.swift; sourceTree = "<group>"; };
+		02CF41912B4CDE18003BFBEF /* StickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerDelegate.swift; sourceTree = "<group>"; };
+		02CF41932B4CDE27003BFBEF /* StickerBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerBorderView.swift; sourceTree = "<group>"; };
+		02CF41962B4CDE59003BFBEF /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		02CF41982B4CDE99003BFBEF /* CanvasStickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasStickerVC.swift; sourceTree = "<group>"; };
+		02CF419A2B4CDEC2003BFBEF /* CanvasStickerBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasStickerBaseVC.swift; sourceTree = "<group>"; };
+		02CF419C2B4CDEF8003BFBEF /* CanvasStickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasStickerView.swift; sourceTree = "<group>"; };
+		02CF419E2B4CDF89003BFBEF /* StickerListCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerListCVCell.swift; sourceTree = "<group>"; };
 		064392AFBDC5EC6ED4D0C14F75EEDCB4 /* Pods_JESticker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JESticker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A29AB7A910232B7B45DE70C56B7306F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		168D4B5B1C8AFF6099F9F94B7622C614 /* Pods-JESticker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JESticker_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -46,7 +102,6 @@
 		26EA74B98CE45ECA3121CC1F2557FFCB /* JESticker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JESticker-Info.plist"; sourceTree = "<group>"; };
 		29B6A977E2047746C9CD858A2EF7D6D4 /* Pods-JESticker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JESticker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		34CA28FB76E3E13607F7E314ECC899EE /* Pods-JESticker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JESticker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3603A8C603CA936270E638B749919F83 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JESticker/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3AB4DAB87F46552D082D872933CD3542 /* Pods-JESticker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JESticker_Example-dummy.m"; sourceTree = "<group>"; };
 		3B8AD9E9809756B88F5A3EB4C52A7272 /* Pods-JESticker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JESticker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		41BC6D6B026B42BCCE759716DF0084C5 /* Pods-JESticker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JESticker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -100,6 +155,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0261C3EF2B578044005FEC4D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0261C4162B579772005FEC4D /* font.ttf */,
+				0261C3F82B578178005FEC4D /* birthday.png */,
+				0261C3F52B578178005FEC4D /* cake.png */,
+				0261C3FE2B578178005FEC4D /* camera.png */,
+				0261C3F42B578178005FEC4D /* cat.png */,
+				0261C3F22B578178005FEC4D /* cow.png */,
+				0261C3F92B578178005FEC4D /* icArrowLeftBottom.png */,
+				0261C3FB2B578178005FEC4D /* icArrowLeftTop.png */,
+				0261C3F72B578178005FEC4D /* icRotate.png */,
+				0261C3F12B578178005FEC4D /* icTwoArrow.png */,
+				0261C3F62B578178005FEC4D /* icX.png */,
+				0261C3FA2B578178005FEC4D /* phone.png */,
+				0261C3FD2B578178005FEC4D /* pie.png */,
+				0261C3FC2B578178005FEC4D /* rabbit.png */,
+				0261C3F32B578178005FEC4D /* dog.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		02CF41842B4CDD55003BFBEF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				02CF41852B4CDD67003BFBEF /* Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		02CF41872B4CDD7B003BFBEF /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				02CF41882B4CDD8F003BFBEF /* Enum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		02CF418A2B4CDDC5003BFBEF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				02CF41952B4CDE50003BFBEF /* Custom */,
+				02CF418C2B4CDDD7003BFBEF /* Canvas */,
+				02CF418B2B4CDDD4003BFBEF /* Sticker */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		02CF418B2B4CDDD4003BFBEF /* Sticker */ = {
+			isa = PBXGroup;
+			children = (
+				02CF418D2B4CDDE3003BFBEF /* StickerView.swift */,
+				02CF418F2B4CDE09003BFBEF /* StickerTextModel.swift */,
+				02CF41912B4CDE18003BFBEF /* StickerDelegate.swift */,
+				02CF41932B4CDE27003BFBEF /* StickerBorderView.swift */,
+			);
+			path = Sticker;
+			sourceTree = "<group>";
+		};
+		02CF418C2B4CDDD7003BFBEF /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				02CF41982B4CDE99003BFBEF /* CanvasStickerVC.swift */,
+				02CF419C2B4CDEF8003BFBEF /* CanvasStickerView.swift */,
+				02CF419E2B4CDF89003BFBEF /* StickerListCVCell.swift */,
+				02CF419A2B4CDEC2003BFBEF /* CanvasStickerBaseVC.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		02CF41952B4CDE50003BFBEF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				0261C4122B579597005FEC4D /* TextFieldPopupVC.swift */,
+				0261C4132B579597005FEC4D /* TextFieldPopupView.swift */,
+				02CF41962B4CDE59003BFBEF /* IconButton.swift */,
+				0261C40D2B5784EE005FEC4D /* SimpleButton.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		090AF6E595C62DD2EF6ABCD6C55965CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,7 +351,10 @@
 		FC564D3B369CF929681B481D280C7B8E /* JESticker */ = {
 			isa = PBXGroup;
 			children = (
-				3603A8C603CA936270E638B749919F83 /* ReplaceMe.swift */,
+				0261C3EF2B578044005FEC4D /* Resource */,
+				02CF418A2B4CDDC5003BFBEF /* Screen */,
+				02CF41872B4CDD7B003BFBEF /* Enum */,
+				02CF41842B4CDD55003BFBEF /* Utils */,
 				685DEF6B800610B44174B536E83055AC /* Pod */,
 				7BEED3FFA14885B8F4C95DECE827DF8E /* Support Files */,
 			);
@@ -350,6 +489,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0261C40B2B578178005FEC4D /* pie.png in Resources */,
+				0261C4052B578178005FEC4D /* icRotate.png in Resources */,
+				0261C4092B578178005FEC4D /* icArrowLeftTop.png in Resources */,
+				0261C4042B578178005FEC4D /* icX.png in Resources */,
+				0261C4082B578178005FEC4D /* phone.png in Resources */,
+				0261C4012B578178005FEC4D /* dog.png in Resources */,
+				0261C40A2B578178005FEC4D /* rabbit.png in Resources */,
+				0261C4032B578178005FEC4D /* cake.png in Resources */,
+				0261C40C2B578178005FEC4D /* camera.png in Resources */,
+				0261C3FF2B578178005FEC4D /* icTwoArrow.png in Resources */,
+				0261C4022B578178005FEC4D /* cat.png in Resources */,
+				0261C4062B578178005FEC4D /* birthday.png in Resources */,
+				0261C4002B578178005FEC4D /* cow.png in Resources */,
+				0261C4072B578178005FEC4D /* icArrowLeftBottom.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +528,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CF41972B4CDE59003BFBEF /* IconButton.swift in Sources */,
+				0261C40E2B5784EE005FEC4D /* SimpleButton.swift in Sources */,
+				02CF41942B4CDE27003BFBEF /* StickerBorderView.swift in Sources */,
+				02CF41862B4CDD67003BFBEF /* Extension.swift in Sources */,
+				02CF419B2B4CDEC2003BFBEF /* CanvasStickerBaseVC.swift in Sources */,
+				02CF418E2B4CDDE3003BFBEF /* StickerView.swift in Sources */,
+				0261C4152B579597005FEC4D /* TextFieldPopupView.swift in Sources */,
 				135FE8716FFC29BFF0841344F6DBFAF7 /* JESticker-dummy.m in Sources */,
-				2FCA43403188F887F3524425B8D6B5DE /* ReplaceMe.swift in Sources */,
+				02CF419D2B4CDEF8003BFBEF /* CanvasStickerView.swift in Sources */,
+				02CF41892B4CDD8F003BFBEF /* Enum.swift in Sources */,
+				02CF41992B4CDE99003BFBEF /* CanvasStickerVC.swift in Sources */,
+				02CF41922B4CDE18003BFBEF /* StickerDelegate.swift in Sources */,
+				0261C4142B579597005FEC4D /* TextFieldPopupVC.swift in Sources */,
+				02CF419F2B4CDF89003BFBEF /* StickerListCVCell.swift in Sources */,
+				02CF41902B4CDE09003BFBEF /* StickerTextModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +630,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -657,7 +823,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
